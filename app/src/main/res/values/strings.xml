@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Minhas Receitas</string>
+    <string name="nome">Nome</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">ENTRAR</string>
+    <string name="nomeReceita">Nome da Receita:</string>
+    <string name="ingredientesReceita">Ingredientes:</string>
+    <string name="modoPreparoReceita">Modo de Preparo:</string>
+    <string name="adicionar">ADICIONAR RECEITA</string>
+    <string name="editar">EDITAR</string>
+    <string name="salvar">SALVAR</string>
+    <string name="bemvindo">Minhas Receitas</string>
+    <string name="tempo">Tempo de Preparo:</string>
+    <string name="rendimento">Rendimento (Porções) :</string>
+    <string name="excluir">EXCLUIR</string>
+    <string name="cadastrar">CADASTRAR</string>
+    <string name="cadastro_frase">Preencha as informações:</string>
+    <string name="foto1">Tirar uma foto</string>
+    <string name="foto2">Selecionar da Galeria</string>
+    <string name="ou">OU</string>
+    <string name="cadastro">Cadastro</string>
+</resources>

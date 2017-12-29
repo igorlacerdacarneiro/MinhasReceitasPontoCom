@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10px"
+    tools:context="com.example.igorl.minhasreceitaspontocom.Views.Adicionar" >
+
+    <Button
+        android:id="@+id/btnAdicionarReceita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/salvar"
+        android:textStyle="bold"
+        android:background="#7EC6D9"
+        android:textColor="@android:color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10px" >
+
+            <TextView
+                android:id="@+id/textViewTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nomeReceita"
+                android:textColor="#000"/>
+
+            <EditText
+                android:id="@+id/editTextNomeReceita"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ingredientesReceita"
+                android:textColor="#000"/>
+
+            <EditText
+                android:id="@+id/editTextIngredientes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/modoPreparoReceita"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/editTextModoPreparo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tempo"
+                android:textColor="#000"/>
+
+            <EditText
+                android:id="@+id/editTextTempoPreparo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rendimento"
+                android:textColor="#000"/>
+
+            <EditText
+                android:id="@+id/editTextRendimento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnAdicionarFoto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/foto1"
+                    android:background="@android:color/transparent"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:layout_margin="20px" />
+
+                <Button
+                    android:id="@+id/btnAdicionarFotoGaleria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/foto2"
+                    android:background="@android:color/transparent"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:layout_margin="20px" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageViewFoto"
+                android:layout_width="match_parent"
+                android:layout_height="400px" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
